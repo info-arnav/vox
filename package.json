@@ -29,7 +29,7 @@
     "build:win": "npm run build && electron-builder --win",
     "build:mac": "npm run build && electron-builder --mac",
     "build:linux": "npm run build && electron-builder --linux",
-    "prepare": "husky install",
+    "prepare": "husky",
     "precommit": "lint-staged",
     "spellcheck": "cspell \"src/**/*.{js,jsx,json,md,css}\" \"*.{json,md,mjs,cjs}\""
   },
